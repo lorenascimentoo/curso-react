@@ -1,14 +1,15 @@
 import React from 'react';
 
-export default () => 
+export default (props) => 
+<div>
+    <h1>{props.valor}</h1>
+</div>
+
+/*export default () => 
 <div>
     <h1>Primeiro Componente(Arrow)!</h1>
 </div>
-
-
-
-
-/*function primeiro(){
+function primeiro(){
     return <h1>Primeiro Componente!</h1>
 }
 
